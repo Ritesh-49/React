@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+  background-color:black ;
+  color: wheat;
+}
+
+button{
+  background-color: lightseagreen;
+  padding: 5px 10px;
+} */
