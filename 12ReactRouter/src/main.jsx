@@ -48,7 +48,11 @@ const router = createBrowserRouter(
       <Route
       loader={githubInfoLoader}
        path='github' 
-       element={<Github />}/>
+       element={<Github />}
+       />
+       {({ isPending }) => (
+          <span>Home {isPending && <Spinner />}</span>
+        )}
     </Route>
   )
 )
