@@ -5,7 +5,7 @@ export const TodoContext = createContext({
     tods: [
         {
             id:1,
-            todos:" Todo msg",
+            todos:" Todo msg ",
             completed: false
         },
     ],
